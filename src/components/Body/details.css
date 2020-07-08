@@ -1,0 +1,92 @@
+.details{
+    margin-top: 45px;
+    padding-left: 3px;
+}
+
+.about{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+}
+
+.cntHead{
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 30px;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+}
+
+.cntSubHead{
+    height: 30px;
+    padding-top: 3px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.modes{
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+    padding-left: 24px;
+    margin-right: 28px;
+    padding-right: 25px;
+    padding-bottom: 16px;
+}
+
+
+/* .react-tabs {
+  -webkit-tap-highlight-color: transparent;
+} */
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  background: #fbfbfb;
+  border-bottom: rgba(255, 85, 0, 0.95) 2px solid;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}

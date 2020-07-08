@@ -1,0 +1,12 @@
+.homelogo{
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    background-color: white;
+    height: 147px;
+    width: 147px;
+    color: #eb2929;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 135px;
+}

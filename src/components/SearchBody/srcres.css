@@ -1,0 +1,73 @@
+.height{
+    height: 60%;
+}
+
+.tile-img{
+    width: 120px;
+    height: 120px;
+    margin-top: 25px;
+    margin-left: 35px;
+    border-radius: 23px;
+    background-color: #ea6060;
+}
+
+.tile-head{
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.53;
+    text-align: left;
+    color: #192f60;
+    margin-top: 40px;
+}
+
+.tile-loc{
+    width: 39px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.88;
+    text-align: left;
+    color: #192f60;
+}
+
+.tile-add{
+    width: 365px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.88;
+    text-align: left;
+    color: #636f88;
+    margin-top: 5px;
+}
+
+.tile-sub{
+    height: 90px;
+    width: 150px;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-left: 40px;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.tile-sub-res{
+    width: 251px;
+    height: 69px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}

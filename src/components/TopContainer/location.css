@@ -1,0 +1,17 @@
+.locationSelector {
+    text-align: center;
+  }
+  
+  
+.locationDropdown {
+    width: 245px;
+    padding-left: 17px;
+    margin-right: 28px;
+    height: 60px;
+}
+  
+.searchBar{
+    width: 440px; 
+    padding-left: 40px;
+    height: 60px;
+}

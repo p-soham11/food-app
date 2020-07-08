@@ -1,0 +1,68 @@
+.header{
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: #ce0505;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 52px;
+}
+
+.logo{
+    height: 52px;
+    width: 52px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 102px;
+    display: inline-block;
+}
+
+.e{
+    width: 32px;
+    height: 47px;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 1.52;
+    text-align: left;
+    color: #eb2929;
+    margin-left: 10px;
+}
+
+.right{
+    display: block;
+    float: right;
+    margin-right: 101px;
+}
+
+.login{
+    display: inline-flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-right: 26px;
+}
+
+.signup{
+    display: inline-flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: left;
+    color: #ffffff;
+    border: 1px #ffffff solid;
+    padding: 12px 15px;
+    border-radius: 3px;
+    transition: 0.35s;
+}
+
+.signup:hover{
+    background-color: #fbfbfb;
+    color: #eb2929;
+    transition: 0.35s;
+}

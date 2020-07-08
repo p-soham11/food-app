@@ -1,0 +1,122 @@
+.srchFilter{
+    width: 296px;
+    height: 735px;
+    margin-top: 30px;
+    padding-top: 17px;
+    margin-left: 113px;
+    margin-right: 50px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.srchTile{
+    width: 794px;
+    height: 291px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+}
+
+.lftMargin{
+    margin-left: 26px;
+}
+ 
+.filter{
+    margin-bottom: 10px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    color:  #192f60;
+}
+
+.srchLoc{
+    height: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 11px;
+}
+
+.selectLoc{
+    width: 208px;
+    height: 35px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+}
+
+.cuisine{
+    width: 51px;
+    height: 20px;
+    font-family: Poppins;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+}
+
+.block{
+    display: block;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.checkbox-option{
+    margin-left: 16px;
+    padding-left: 3px;
+    font-family: Poppins;
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 1.5;
+    text-align: left;
+    color: #8c96ab;
+}
+
+.chkbox{
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    margin-right: 4px;
+    border-radius: 1.5px;
+    border: solid 1.5px #3a5075;
+}
+
+.cf2{
+    height: 20px;
+    font-family: Poppins;
+    font-size: 17px;
+    margin-top: 28px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+}
+
+.rdio{
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+    margin-right: 4px;
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+}
+
+.sort{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 31px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+}

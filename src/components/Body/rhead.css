@@ -1,0 +1,16 @@
+.rname{
+    margin-top: 40px;
+    margin-bottom: 59px;
+    padding-left: 3px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.53;
+    text-align: left;
+    color: #192f60;
+}
+
+.greyline{
+    border-bottom: rgba(140, 150, 171, 0.5) 2px solid;
+}
+

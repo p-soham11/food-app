@@ -1,0 +1,49 @@
+.qsTile{
+    display: inline-block;
+    height: 160px;
+    width: 360px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    display: inline-block;
+    margin-right: 32px;
+    margin-bottom: 30px;
+}
+
+.qsTileImg{
+    display: inline-block;
+    float: left;
+    height: 160px;
+    width: 160px;
+}
+
+.qsTileText{
+    display: inline-block;
+    margin-left: 29px;
+    margin-top: 25px;
+}
+
+.qsTileHead{
+    display: block;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+    width: 88px;
+    height: 25px;
+    padding-bottom: 5px;
+    
+}
+
+.qsTileSubHead{
+    display: block;
+    margin-top: 8px;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    color: #8c96ab;
+    width: 137px;
+    height: 62px;
+}

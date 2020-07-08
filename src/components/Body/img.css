@@ -1,0 +1,38 @@
+.image{
+    background-image: url('https://www.thestatesman.com/wp-content/uploads/2019/04/idli.jpg');
+    width: 100%;
+    background-size: cover;
+    height: 360px;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+
+.gallery{
+    float: right;
+    margin-right: 27px;
+    margin-top: 280px;
+    padding: 14px;
+    background-color: rgba(251, 251, 251, 0.8);
+    border-radius: 3px;
+    transition: 0.4s;
+    
+}
+
+.gallery:hover{
+    background-color: rgb(251, 251, 251);
+    transition: 0.4s;
+}
+
+.galtxt{
+    width: 213px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
