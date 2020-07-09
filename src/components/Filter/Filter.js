@@ -7,7 +7,7 @@ class Filter extends Component {
             <div className="srchFilter">
                     <div className="filter lftMargin">Filter</div>
                     <div className="srchLoc lftMargin">Select Location</div>
-                    <select onChange={this.props.onLocationChange} className="selectLoc lftMargin">
+                    <select onChange={this.props.onLocationChange} className="selectLoc lftMargin" placeholder="Select City">
                         <option>Chennai</option>
                         <option>Delhi</option>
                         <option>Kanpur</option>
@@ -37,23 +37,23 @@ class Filter extends Component {
                     </div>
                     <div className="cf2 lftMargin">Cost for Two</div>
                     <div className="block lftMargin">
-                        <input name='cft' type="radio" className="inline-block rdio" />
+                        <input onChange={this.props.onCftChange} name='cft' type="radio" value="<500" className="inline-block rdio" />
                         <label className="inline-block ckeckbox-option">Less than ₹500</label>
                     </div>
                     <div className="block lftMargin">
-                        <input name='cft' type="radio" className="inline-block rdio" />
+                        <input onChange={this.props.onCftChange} name='cft' type="radio" value="500-1000" className="inline-block rdio" />
                         <label className="inline-block ckeckbox-option">₹500 to ₹1000</label>
                     </div>
                     <div className="block lftMargin">
-                        <input name='cft' type="radio" className="inline-block rdio" />
+                        <input onChange={this.props.onCftChange} name='cft' type="radio" value="1000-1500" className="inline-block rdio" />
                         <label className="inline-block ckeckbox-option">₹1000 to ₹1500</label>
                     </div>
                     <div className="block lftMargin">
-                        <input name='cft' type="radio" className="inline-block rdio" />
+                        <input onChange={this.props.onCftChange} name='cft' type="radio" value="1500-2000" className="inline-block rdio" />
                         <label className="inline-block ckeckbox-option">₹1500 to ₹2000</label>
                     </div>
                     <div className="block lftMargin">
-                        <input name='cft' type="radio" className="inline-block rdio" />
+                        <input onChange={this.props.onCftChange} name='cft' type="radio" value=">2000" className="inline-block rdio" />
                         <label className="inline-block ckeckbox-option">₹2000 and more</label>
                     </div>
                     <div className="sort lftMargin">Sort</div>

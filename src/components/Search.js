@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Header from './Header/Header';
 import Title from './SearchTitle/Title';
 import SearchBody from './SearchBody/SearchBody';
+import queryString from 'query-string';
+import {withRouter} from 'react-router-dom';
 
 class Search extends Component {
     constructor() {
@@ -12,25 +13,33 @@ class Search extends Component {
     }
 
     onLocationChange = (event) => {
+        var query = this.props.location.search;
+        var queryObject = queryString.parse(query);
+        this.props.history.push(`/search?city=${event.target.value}&cuisine=${queryObject.cuisine}&cft=${queryObject.cft}`);
         this.setState({ loc: event.target.value});
-        console.log(this.state.loc);
-        alert('Location : '+ event.target.value);
     }
 
     onCuisineChange = (event) => {
-        alert('Cuisine: ' + event.target.value);
+        var query = this.props.location.search;
+        var queryObject = queryString.parse(query);
+        this.props.history.push(`/search?city=${queryObject.city}&cuisine=${event.target.value}&cft=${queryObject.cft}`);
+    }
+
+    onCFTchange = (event) => {
+        var query = this.props.location.search;
+        var queryObject = queryString.parse(query);
+        this.props.history.push(`/search?city=${queryObject.city}&cuisine=${queryObject.cuisine}&cft=${event.target.value}`);
     }
     
     render() { 
         return (  
             <div>
                 <div>{this.props.location.search}</div>
-                <Header />
                 <Title text={`Exclusive restaurants at ${this.state.loc} !!`}/>
-                <SearchBody onLocationChange={this.onLocationChange} onCuisineChange={this.onCuisineChange} queryString={this.props.location.search}/>
+                <SearchBody onLocationChange={this.onLocationChange} onCuisineChange={this.onCuisineChange} onCftChange={this.onCFTchange} queryString={this.props.location.search}/>
             </div>
         );
     }
 }
  
-export default Search;
+export default withRouter(Search);
