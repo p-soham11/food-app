@@ -8,7 +8,9 @@ class Search extends Component {
     constructor() {
         super();
         this.state={
-            loc:'all over India'
+            loc:'all over India',
+            flagCuisine : 'test',
+            flagCount:1
         }
     }
 
@@ -22,7 +24,17 @@ class Search extends Component {
     onCuisineChange = (event) => {
         var query = this.props.location.search;
         var queryObject = queryString.parse(query);
-        this.props.history.push(`/search?city=${queryObject.city}&cuisine=${event.target.value}&cft=${queryObject.cft}`);
+        if ((this.state.flagCuisine == event.target.value)&&(this.state.flagCount < 0))
+        {
+            this.props.history.push(`/search?city=${queryObject.city}&cuisine=${'undefined'}&cft=${queryObject.cft}`);
+            this.setState({ flagCount: this.state.flagCount * (-1) });
+        }   
+        else
+        {
+            this.props.history.push(`/search?city=${queryObject.city}&cuisine=${event.target.value}&cft=${queryObject.cft}`);
+            this.setState({ flagCount: this.state.flagCount *(-1) });
+        }  
+        this.setState({ flagCuisine: event.target.value });
     }
 
     onCFTchange = (event) => {
